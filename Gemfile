@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'clearance', '~>1.15.1'
-
+gem 'mailboxer', github: 'mailboxer/mailboxer'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
