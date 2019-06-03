@@ -1,0 +1,10 @@
+<h1>All Conversations</h1>
+
+<!-- loop though all conversations. -->
+
+<% @conversations.each do |conversation| %>
+  <div>
+    <%= link_to conversation.subject, conversation_path(conversation) %>
+                    <!-- if conversation_path left out will look for scole modle names -->
+  </div>
+<% end %>
