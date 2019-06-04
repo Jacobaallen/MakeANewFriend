@@ -1,4 +1,4 @@
-class MailboxerNamespacingCompatibility < ActiveRecord::Migration
+class MailboxerNamespacingCompatibility < ActiveRecord::Migration[5.2]
 
   def self.up
     rename_table :conversations, :mailboxer_conversations
